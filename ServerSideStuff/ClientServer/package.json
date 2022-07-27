@@ -1,0 +1,20 @@
+{
+  "name": "keyauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.7.0",
+    "express-useragent": "^1.0.15",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "mongodb": "^4.6.0",
+    "ws": "^8.5.0"
+  }
+}

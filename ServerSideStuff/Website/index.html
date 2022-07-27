@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+        <link type="text/css" rel="stylesheet" href="src/styles.css">
+        <title>The Milky Way</title>
+        <meta property="og:image" content="https://api.glowking.net/src/Cutie.jpg">
+        <meta property="og:description" content="The Milky Way by HyperV">
+        <meta property="og:title" content="The Milky Way">
+    </head>
+    <body>
+        <div class="rain front-row"></div>
+        <div class="rain back-row"></div>
+        
+         
+          
+         
+    
+        <audio id="player" loop>
+            <source src="src/GoodBye.mp3" type="audio/mp3">
+        </audio>
+        <script>
+            var vAudio = document.getElementById("player");
+            vAudio.volume = 0.3;
+            var hasInit = false;
+            function playMusic()
+            {
+               console.log(vAudio.ended)
+               if(!hasInit)
+               {
+                   hasInit = true;
+                   vAudio.play();
+               }
+            }
+         </script>
+
+        
+        <script type="text/javascript" src="src/rain.js"></script>
+
+         <div class="single-toggle toggle"></div>
+        
+        <div id="images" class="ontop">
+            <a target="_blank" onmouseenter="playMusic()" title="Welcome ">
+                
+            </div></a>
+        <div id="images" class="lower">
+            <a href="https://galaxyvrc.xyz/discord" target="_blank" onmouseenter="playMusic()" title="Join the Discord ">
+                Farwell it was fun while it lasted...
+            </div></a>
+
+
+          
+    <footer>
+        <p>&copy; 2022 HyperV & Glowking if he was still around</p>
+    </footer>
+</html>
